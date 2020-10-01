@@ -8,10 +8,10 @@ int main() {
     cin >> amount;
     int counter = amount;
     while (counter > 0) {
-      cout << "第 " << amount - counter + 1 << " 筆資料: ";
-      cin >> money;
-      sum += money;
-      counter--;
+        cout << "第 " << amount - counter + 1 << " 筆資料: ";
+        cin >> money;
+        sum += money;
+        counter--;
     }
-    cout << "總和: " << sum;
+      cout << "總和: " << sum;
 }
