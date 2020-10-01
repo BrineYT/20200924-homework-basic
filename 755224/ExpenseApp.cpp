@@ -13,5 +13,5 @@ int main() {
         sum += money;
         counter--;
     }
-        cout << "總和: " << sum;
+    cout << "總和: " << sum;
 }
