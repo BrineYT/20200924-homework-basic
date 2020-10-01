@@ -6,12 +6,12 @@ int main() {
     cout << "The amount of layers: ";
     cin >> layers;
     for (int i = layers; i > 0; i--) {
-      for (int j = i; j > 0; j--) {
-        cout << " ";
+        for (int j = i; j > 0; j--) {
+            cout << " ";
       }
-      for (int k = layers - i + 1; k > 0; k--) {
-        cout << "#";
+        for (int k = layers - i + 1; k > 0; k--) {
+            cout << "#";
       }
-      cout << "\n";
+        cout << "\n";
     }
 }
